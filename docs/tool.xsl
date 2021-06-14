@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-  <form method="post" action="edittool.asp">
+  <form method="post" action="tool_updated.xsl">
   <h2>Tool Information (edit):</h2>
   <table border="0">
     <xsl:for-each select="tool/field">
