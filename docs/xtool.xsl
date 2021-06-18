@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <form method="post" action="tool_updated.xsl">
   <h2>Tool Information (edit):</h2>
   <table border="0">
-    <xsl:for-each select="Envelope/Body">
+    <xsl:for-each select="Envelope//Body">
     <tr>
       <td><xsl:value-of select="@id"/></td>
       <td>
