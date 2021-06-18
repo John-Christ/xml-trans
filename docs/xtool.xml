@@ -8,26 +8,8 @@
     <SOAP-ENV:Body>
     	<SinglePaymentRequest xmlns="http://www.paygate.co.za/PayHOST">
 	    	<WebPaymentRequest>
-				 <!-- Account Details -->
-                <Account>
-                    <PayGateId>10011072130</PayGateId>
-                    <Password>test</Password>
-                </Account>
-                <!-- Customer Details -->
-               
 			
-			
-                <VaultId>658b3c2e-d5ae-4204-abe1-a42d860769da</VaultId>
-                <PaymentType>
-                    <Method>CC</Method>
-                    <Detail>CreditCard</Detail>
-                </PaymentType>
-                <!-- Redirect Details -->
-                <Redirect>
-                    <NotifyUrl>http://localhost</NotifyUrl>
-                    <ReturnUrl>http://localhost</ReturnUrl>
-                </Redirect>
-                <!-- Order Details -->
+			  <!-- Order Details -->
                 <Order>
                     <MerchantOrderId>utiliapp_41250008624_20210120104336</MerchantOrderId>
 	  <field id="Currency">
@@ -57,6 +39,28 @@
                     </BillingDetails>
                     <Locale>en</Locale>
                 </Order>
+			
+			
+				 <!-- Account Details -->
+                <Account>
+                    <PayGateId>10011072130</PayGateId>
+                    <Password>test</Password>
+                </Account>
+                <!-- Customer Details -->
+               
+			
+			
+                <VaultId>658b3c2e-d5ae-4204-abe1-a42d860769da</VaultId>
+                <PaymentType>
+                    <Method>CC</Method>
+                    <Detail>CreditCard</Detail>
+                </PaymentType>
+                <!-- Redirect Details -->
+                <Redirect>
+                    <NotifyUrl>http://localhost</NotifyUrl>
+                    <ReturnUrl>http://localhost</ReturnUrl>
+                </Redirect>
+              
 			</WebPaymentRequest>
 		</SinglePaymentRequest>
 	</SOAP-ENV:Body>
