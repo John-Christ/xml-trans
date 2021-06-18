@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="xtool.xsl"?>
+<?xml-stylesheet type="text/xsl" href="tool.xsl"?>
 
 
 
@@ -30,14 +30,24 @@
                 <!-- Order Details -->
                 <Order>
                     <MerchantOrderId>utiliapp_41250008624_20210120104336</MerchantOrderId>
+	  <field id="Currency">
                     <Currency>ZAR</Currency>
+	  </field>
+	  <field id="Amount">
                     <Amount>25000</Amount>
+	   </field>
                     <BillingDetails>
                         <!-- Customer Details -->
                         <Customer>
+		  <field id="FirstName">
                             <FirstName>deepak</FirstName>
+			</field>
+		  <field id="LastName">
                             <LastName>narahare</LastName>
-                            <Email>hannoa@paygate.co.za</Email>
+		   </field>
+		  <field id="Email">
+                       <Email>hannoa@paygate.co.za</Email>
+		   </field>
                             <!-- Address Details -->
                             <Address>
                                 <Country>ZAF</Country>
